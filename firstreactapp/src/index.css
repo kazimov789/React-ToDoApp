@@ -1,0 +1,45 @@
+.inputTask {
+  width: 96%;
+  height: 45px;
+  border: none;
+  margin-top: 1%;
+}
+.addTask {
+  display: flex;
+  margin-top: 1%;
+  padding: 8px 15px;
+  border: none;
+  background-color: #0d6efd;
+  color: white;
+  transition: 0.5s;
+}
+.task {
+  font-size: 25px;
+  color: black;
+}
+.tasks {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+  margin-top: 10px;
+  border: 1px solid black;
+}
+.deleteTask {
+  background-color: transparent;
+  cursor: pointer;
+  transition: 0.4s;
+  font-size: 15px;
+  padding: 10px;
+  border: 2px solid #d6737d;
+  height: 50%;
+  margin: auto 50px;
+  color: #ce4950;
+}
+.alert {
+  display: flex;
+  font-weight: 900;
+  margin: auto;
+  color: red;
+  justify-content: center;
+  font-size: 45px;
+}
